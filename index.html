@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Calculadora</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
@@ -13,5 +13,23 @@
       <button onclick="appendToResult(7)">7</button>
       <button onclick="appendToResult(8)">8</button>
       <button onclick="appendToResult(9)">9</button>
-      <button class="operator" onclick="appendToResult
+      <button class="operator" onclick="appendToResult('+')"><i class="fas fa-plus"></i></button>
+      <button onclick="appendToResult(4)">4</button>
+      <button onclick="appendToResult(5)">5</button>
+      <button onclick="appendToResult(6)">6</button>
+      <button class="operator" onclick="appendToResult('-')"><i class="fas fa-minus"></i></button>
+      <button onclick="appendToResult(1)">1</button>
+      <button onclick="appendToResult(2)">2</button>
+      <button onclick="appendToResult(3)">3</button>
+      <button class="operator" onclick="appendToResult('*')"><i class="fas fa-times"></i></button>
+      <button onclick="appendToResult(0)">0</button>
+      <button class="equal" onclick="calculateResult()"><i class="fas fa-equals"></i></button>
+      <button class="operator" onclick="appendToResult('/')"><i class="fas fa-divide"></i></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
 

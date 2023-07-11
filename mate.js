@@ -1,5 +1,3 @@
-//alert("Hola");
-/* comentario de varias lines */
 var codigo;
 let nombre;
 
@@ -15,5 +13,7 @@ else{
 
 var contador 
 for(contador=0; contador < 20;contador++){
-console
+console.log(contador);
 }
+
+function f_suma(n1,)
